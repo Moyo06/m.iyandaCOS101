@@ -1,0 +1,14 @@
+CREATE TABLE staff (
+    id INT,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT,
+    age INT
+);
+
+CREATE TABLE projects (
+    project_id INT,
+    project_name VARCHAR(50),
+    duration INT,
+    department VARCHAR(50)
+);
